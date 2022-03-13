@@ -69,7 +69,17 @@ box-sizing: border-box;
         }
         .bars {
             position: absolute;
-            right: 49px;
+            right: 18%;
+            top: 0;
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    .menu {
+        .bars {
+            position: absolute;
+            right: 18%;
             top: 0;
         }
     }
